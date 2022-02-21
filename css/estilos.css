@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://data.1freewallpapers.com/detail/building-roof-terrace-light-night-purple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: block;
+    margin: 100px auto;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px black;
+    position: relative;
+}
+
+@media screen and (max-width: 600px){
+    .formulario{
+        margin-top: 100px;
+        width: 70%;
+        margin: 0 10px;
+    }
+}
+
+.h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #504587;
+}
+h2{
+    color: rgb(233, 233, 233);
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 11px 27px;
+}
+
+.hijomas{
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: #b287d9;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.cont-form{
+    margin: 40px 17%;
+}
+
+form{
+    line-height: 40px;
+    position: relative;
+}
+#user-icon{
+    color: #b287d9;
+    border-bottom: 2px solid gray;
+    position: absolute;
+    top: 13.5px;
+    left: -15px;
+}
+#pass-icon{
+    color: #b287d9;
+    border-bottom: 2px solid gray;
+    position: absolute;
+    top: 53.5px;
+    left: -15px;
+}
+input{
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    transition: border-bottom 1s;
+    border-bottom: 2px solid #b287d9;
+}
+
+.redes{
+    font-size: 35px;
+    text-decoration: none;
+    margin: 40px 10px 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.facebook{
+    margin-right: 30px;
+    color: #3b5998;
+    border-radius: 50%;
+    font-size: 40px;
+}
+.google{
+    margin-right: 30px;
+    background-color: #de4e40;
+    color: #fff;
+    border-radius: 50%;
+}
+.twitter{
+    background-color: #00acee;
+    color: #fff;
+    border-radius: 50%;
+}
+.icon-pasar:hover{
+    color: #fff;
+    background: #504587;
+}
+
+
+.btn-sesion{
+    background-color: #b287d9;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-sesion:hover{
+    background: #a478ce;
+}
+.signin{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.olvidon{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.olvidon-word{
+    color: rgb(158, 158, 158);
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
